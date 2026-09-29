@@ -13,7 +13,7 @@
   "clean_source_docker_build": "passed",
   "ros2_launch_dds": "passed_clean_shutdown",
   "javascript_syntax": "passed",
-  "github_uploaded": false,
+  "github_uploaded": true,
   "limitations": [
     "No hidden-test validation",
     "150+ m detection not demonstrated",
@@ -36,5 +36,6 @@
     "tunnel.py": "b4d882656cbbb25ed3fe88d1dfb12ecdbf83e268c5599d974465b53257839588",
     "__init__.py": "830e0bb5e9bedcb65861faa1093b56f807f96a9f3f63df9d732f7fafe2462843",
     "__main__.py": "665170f864120e2abe3aec7e3f57bf5680de8c075cc99b2581cc86ccbda27448"
-  }
+  },
+  "github_repository": "https://github.com/W2nner/metro"
 }
