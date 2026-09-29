@@ -35,6 +35,8 @@ def main():
     files.extend(p for p in (root/'reports/release-linux').glob('*') if p.suffix in ('.json','.jsonl') and '.progress.' not in p.name)
     if audit_path.resolve()!=(root/'reports/release-linux').resolve():
         files.extend(p for p in audit_path.glob('*') if p.suffix in ('.json','.jsonl') and '.progress.' not in p.name)
+    for name in ('release-turns-0.4.2','release-linux-0.4.2'):
+        files.extend(p for p in (root/'reports'/name).glob('*') if p.suffix in ('.json','.jsonl') and '.progress.' not in p.name)
     files.extend(p for p in (root/'reports').glob('*0.4.2*') if p.is_file() and p.suffix in ('.md','.json','.txt'))
     files=list(dict.fromkeys(files))
     manifest={str(p.relative_to(root)).replace('\\','/'):digest(p) for p in sorted(files)}
