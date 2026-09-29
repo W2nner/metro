@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!requirements.txt
+!metro_detector/**
+!config/**
+!web/**
+**/__pycache__
+!launch/**
+!examples/**
+!tools/ros_smoke.py
+!requirements-container.txt

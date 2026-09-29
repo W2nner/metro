@@ -1,0 +1,183 @@
+{
+  "note": "24 preloaded scans; 1 warmup plus 3 interleaved measurements per implementation. Windows user PC, not contest i7. No reading or rendering.",
+  "summary": {
+    "v12": {
+      "p50_ms": 107.62285000009797,
+      "p95_ms": 167.78635500004373
+    },
+    "current": {
+      "p50_ms": 71.77564999983588,
+      "p95_ms": 129.62943500024258
+    }
+  },
+  "cases": [
+    {
+      "dataset": "doubleT_obstacle",
+      "frame": 0,
+      "v12_ms": 122.19960000038554,
+      "current_ms": 98.62280000015744,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_obstacle",
+      "frame": 100,
+      "v12_ms": 123.04040000071836,
+      "current_ms": 98.83809999973892,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_obstacle",
+      "frame": 200,
+      "v12_ms": 119.8458999997456,
+      "current_ms": 97.84270000000106,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_platform",
+      "frame": 0,
+      "v12_ms": 114.73639999985608,
+      "current_ms": 87.86610000061046,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_platform",
+      "frame": 172,
+      "v12_ms": 75.50010000068141,
+      "current_ms": 57.869100000061735,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_platform",
+      "frame": 344,
+      "v12_ms": 115.3375000003507,
+      "current_ms": 71.97139999971114,
+      "same_alarm": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "v12_ms": 81.35289999972883,
+      "current_ms": 59.47439999999915,
+      "same_alarm": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5635,
+      "v12_ms": 120.44950000017707,
+      "current_ms": 76.9430000000284,
+      "same_alarm": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 11270,
+      "v12_ms": 101.09780000038882,
+      "current_ms": 70.75110000005225,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "v12_ms": 101.77310000017314,
+      "current_ms": 69.23610000012559,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 126,
+      "v12_ms": 94.76600000016333,
+      "current_ms": 71.57989999996062,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 251,
+      "v12_ms": 91.82080000027781,
+      "current_ms": 67.16050000068208,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_pressureGate_roundT",
+      "frame": 0,
+      "v12_ms": 109.48869999992894,
+      "current_ms": 74.1014000004725,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_pressureGate_roundT",
+      "frame": 134,
+      "v12_ms": 106.33649999999761,
+      "current_ms": 72.99839999996038,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_pressureGate_roundT",
+      "frame": 267,
+      "v12_ms": 108.90920000019833,
+      "current_ms": 74.97349999994185,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_squareT_pressureGate_squareT",
+      "frame": 0,
+      "v12_ms": 114.04430000038701,
+      "current_ms": 73.27579999946465,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_squareT_pressureGate_squareT",
+      "frame": 272,
+      "v12_ms": 70.00460000017483,
+      "current_ms": 58.73319999955129,
+      "same_alarm": true
+    },
+    {
+      "dataset": "roundT_squareT_pressureGate_squareT",
+      "frame": 544,
+      "v12_ms": 94.48279999924125,
+      "current_ms": 70.45910000033473,
+      "same_alarm": true
+    },
+    {
+      "dataset": "squareT_platform_squareT_switch",
+      "frame": 0,
+      "v12_ms": 81.2287999997352,
+      "current_ms": 59.88290000004781,
+      "same_alarm": true
+    },
+    {
+      "dataset": "squareT_platform_squareT_switch",
+      "frame": 438,
+      "v12_ms": 82.98869999998715,
+      "current_ms": 57.830099999591766,
+      "same_alarm": true
+    },
+    {
+      "dataset": "squareT_platform_squareT_switch",
+      "frame": 876,
+      "v12_ms": 71.45260000015696,
+      "current_ms": 61.13340000047174,
+      "same_alarm": true
+    },
+    {
+      "dataset": "doubleT_obstacle",
+      "frame": 24,
+      "v12_ms": 266.7842999999266,
+      "current_ms": 237.03300000033778,
+      "same_alarm": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 60,
+      "v12_ms": 109.51079999995272,
+      "current_ms": 70.10100000024977,
+      "same_alarm": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 7589,
+      "v12_ms": 175.6826999999248,
+      "current_ms": 135.06320000033156,
+      "same_alarm": true
+    }
+  ]
+}

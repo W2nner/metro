@@ -1,0 +1,10 @@
+# Tested Linux amd64 / Python 3.10; numpy/scipy supplied by Ubuntu packages.
+numpy==1.21.5
+scipy==1.8.0
+rosbags==0.11.5
+plyfile==1.0.3
+apsw==3.53.4.0
+lz4==4.4.5
+ruamel.yaml==0.19.1
+typing_extensions==4.16.0
+zstandard==0.25.0

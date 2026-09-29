@@ -1,0 +1,19 @@
+{
+  "frames": 345,
+  "single_alarm_frames": 0,
+  "confirmed_alarm_frames": 0,
+  "uncertain_frames": 344,
+  "no_detection_frames": 1,
+  "single_alarm_frames_ge150": 0,
+  "confirmed_alarm_frames_ge150": 0,
+  "nearby_frames": 345,
+  "annotated_frames": 0,
+  "annotation_matches_nearby": 0,
+  "annotation_matches_in_corridor": 0,
+  "read_errors": 0,
+  "total_expected": 345,
+  "p50_ms": 77.20930000004955,
+  "p95_ms": 86.89175999998042,
+  "p99_ms": 94.74800399986634,
+  "read_and_process_p95_ms": 97.93420000014521
+}

@@ -1,0 +1,11 @@
+services:
+  metro:
+    build: .
+    image: metro-detector:submission
+    ports:
+      - "127.0.0.1:8190:8190"
+    volumes:
+      - ./data:/data:ro
+      - ./state:/output/state
+    command: ["serve", "--data", "/data", "--host", "0.0.0.0", "--state", "/output/state"]
+    restart: unless-stopped

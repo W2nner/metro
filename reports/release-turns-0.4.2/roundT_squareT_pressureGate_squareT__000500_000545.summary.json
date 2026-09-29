@@ -1,0 +1,15 @@
+{
+  "frames": 45,
+  "single_alarm_frames": 0,
+  "confirmed_alarm_frames": 0,
+  "uncertain_frames": 45,
+  "no_detection_frames": 0,
+  "single_alarm_frames_ge150": 0,
+  "confirmed_alarm_frames_ge150": 0,
+  "nearby_frames": 45,
+  "annotated_frames": 0,
+  "annotation_matches_nearby": 0,
+  "annotation_matches_in_corridor": 0,
+  "read_errors": 0,
+  "total_expected": 45
+}

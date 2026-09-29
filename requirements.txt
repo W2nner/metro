@@ -1,0 +1,4 @@
+numpy>=1.21,<3
+scipy>=1.8,<2
+rosbags==0.11.5
+plyfile==1.0.3

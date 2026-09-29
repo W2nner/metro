@@ -1,0 +1,40 @@
+{
+  "version": "0.4.2",
+  "windows_full_frames": 13759,
+  "linux_full_frames": 13759,
+  "full_results_match": true,
+  "read_errors": 0,
+  "negative_frames": 13558,
+  "negative_alarms": 0,
+  "person_alarm_frames": 47,
+  "uncertain_frames": 13697,
+  "windows_clean_source_tests": 41,
+  "linux_clean_source_tests": 41,
+  "clean_source_docker_build": "passed",
+  "ros2_launch_dds": "passed_clean_shutdown",
+  "javascript_syntax": "passed",
+  "github_uploaded": false,
+  "limitations": [
+    "No hidden-test validation",
+    "150+ m detection not demonstrated",
+    "UNCERTAIN is not clear track"
+  ],
+  "core_lf_sha256": {
+    "detector.py": "edf448441cf05304f4685d11d04feaa6bb291c9f5d93d0bd99b559923030d055",
+    "diagnostics.py": "be0347e793cdf0c12145601b577c9aab9c94f2a2d7591f840ac0688982d70e38",
+    "history.py": "f2eb70817d897551311904804a3d11b878798eefeea2c27f6a82ab2e52f7fb7b",
+    "io.py": "3f44312ac52068c77b7a384b37bfe815578768972385c2076e9f2b62e7d5f5d3",
+    "maps.py": "3d6539e3881999b883055bdaa40f31290f6208b5c85cf9aa695383f1168a4eeb",
+    "rails.py": "c87bc763623b66b688812ffe669f59980a75bbabeade3c1169951455b67b4c17",
+    "range_context.py": "30cb17bcc36efc907c712fed7f3c9564dc59233ae9cf7bb8a746e87cfe52ec07",
+    "ros_node.py": "faba6e42c5dd3f01b111b7033de78771ac83c14f800cfcfba28cf7eae5f04c87",
+    "server.py": "2afdda4bf90c6d53432def52707a498eb9e92655b64736172b9049b14fffbb3d",
+    "sources.py": "4c9bfd7f0260be9666924e00325757b57b6f7fba2d5822901eba7411b404690c",
+    "streaming.py": "3477d190d2670902c72b547320bf177d6c3ffecc8f0deb974014ba0f8cf8097a",
+    "surfaces.py": "0962f883741e72c28422f8abd43cfb9a7f0d1f28eb872c8c236f8ed357a8269b",
+    "trajectory.py": "a89b9104fb7b82149c545268db0e25ee1eb9f1b1dde677a348ab9a4b9aca06ff",
+    "tunnel.py": "b4d882656cbbb25ed3fe88d1dfb12ecdbf83e268c5599d974465b53257839588",
+    "__init__.py": "830e0bb5e9bedcb65861faa1093b56f807f96a9f3f63df9d732f7fafe2462843",
+    "__main__.py": "665170f864120e2abe3aec7e3f57bf5680de8c075cc99b2581cc86ccbda27448"
+  }
+}

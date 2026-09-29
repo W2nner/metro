@@ -1,0 +1,491 @@
+{
+  "description": "Ray-box insertion into 3 real scans, first-return occlusion, no reflectance/dropout/noise model. Object placement uses baseline estimated rail geometry, not verified survey coordinates. This is a regression experiment, not real-world range validation.",
+  "cases": [
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "minimum_box",
+      "unique_visible_returns": 48,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "person_proxy",
+      "unique_visible_returns": 872,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "large_box",
+      "unique_visible_returns": 1189,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "minimum_box",
+      "unique_visible_returns": 15,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "person_proxy",
+      "unique_visible_returns": 161,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "large_box",
+      "unique_visible_returns": 237,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 15,
+      "object": "minimum_box",
+      "unique_visible_returns": 34,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 15,
+      "object": "person_proxy",
+      "unique_visible_returns": 814,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 15,
+      "object": "large_box",
+      "unique_visible_returns": 1055,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 30,
+      "object": "minimum_box",
+      "unique_visible_returns": 7,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 30,
+      "object": "person_proxy",
+      "unique_visible_returns": 114,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 30,
+      "object": "large_box",
+      "unique_visible_returns": 183,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 100,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 100,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 100,
+      "object": "large_box",
+      "unique_visible_returns": 1,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 150,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 150,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 150,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 200,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 200,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 200,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 300,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 300,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "new_data",
+      "frame": 5000,
+      "forward_m": 300,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "minimum_box",
+      "unique_visible_returns": 43,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "person_proxy",
+      "unique_visible_returns": 643,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 15,
+      "object": "large_box",
+      "unique_visible_returns": 1132,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "minimum_box",
+      "unique_visible_returns": 5,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "person_proxy",
+      "unique_visible_returns": 116,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 30,
+      "object": "large_box",
+      "unique_visible_returns": 215,
+      "detected": true,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "minimum_box",
+      "unique_visible_returns": 1,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "person_proxy",
+      "unique_visible_returns": 3,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 100,
+      "object": "large_box",
+      "unique_visible_returns": 3,
+      "detected": false,
+      "candidate": true
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 150,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 200,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "minimum_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "person_proxy",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    },
+    {
+      "dataset": "roundT_doubleT",
+      "frame": 0,
+      "forward_m": 300,
+      "object": "large_box",
+      "unique_visible_returns": 0,
+      "detected": false,
+      "candidate": false
+    }
+  ]
+}
